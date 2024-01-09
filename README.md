@@ -25,9 +25,3 @@ The primary objective of this project is to analyze and model the factors influe
 - **Models:** This section houses the trained models and relevant artifacts generated during the modeling phase.
 
 - **Results:** We present visualizations and summaries of our findings, providing a clear representation of the project's outcomes.
-
-## Conclusion
-
-While the initial results offer insights into tackling performance during pass plays, ongoing work and further investigation are essential. This repository serves as an evolving resource, and we welcome collaboration and feedback to enhance our understanding of this fascinating aspect of NFL gameplay.
-
-Feel free to explore the code, contribute, and join the discussion on how to refine our approach to tackling performance analysis in the NFL.
