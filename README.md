@@ -14,7 +14,7 @@ The primary objective of this project is to analyze and model the factors influe
 
 - **Modeling:** We experimented with various regression models, including linear regression, Lasso regression, and Random Forest regression, to predict yards after contact. These models were assessed based on metrics like mean squared error and R-squared.
 
-- **Feature Importance:** Utilizing Random Forest regression, we determined the importance of different features in predicting yards after contact, offering valuable insights into the critical factors affecting tackling performance.
+- **Feature Importance:** Utilizing a number of classification models, we attempted to predict wether or not a tackle would be broken on a given play
 
 ## Project Structure
 
@@ -22,6 +22,4 @@ The primary objective of this project is to analyze and model the factors influe
 
 - **Data:** The 'data' directory contains the raw and processed datasets used throughout the project.
 
-- **Models:** This section houses the trained models and relevant artifacts generated during the modeling phase.
-
-- **Results:** We present visualizations and summaries of our findings, providing a clear representation of the project's outcomes.
+- **Animation:** This section houses the function for animating plays from the tracking data
