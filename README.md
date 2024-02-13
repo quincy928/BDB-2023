@@ -1,6 +1,6 @@
-# NFL Big Data Bowl 2023 Repository
+# NFL Big Data Bowl 2024 Repository
 
-Welcome to the repository for the NFL Big Data Bowl 2023, where we delve into the intricacies of tackling performance, particularly focusing on yards after contact in pass plays. This project is part of the Kaggle competition, aiming to extract valuable insights from the extensive NFL tracking data.
+Welcome to the repository for the NFL Big Data Bowl 2024, where we delve into the intricacies of tackling performance, particularly focusing on yards after contact in pass plays. This project is part of the Kaggle competition, aiming to extract valuable insights from the extensive NFL tracking data.
 
 ## Overview
 
