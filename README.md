@@ -12,8 +12,7 @@ The primary objective of this project is to analyze and model the factors influe
   
 - **Data Preprocessing:** Significant efforts were dedicated to cleaning and preparing the dataset. We categorized plays, identified key players, and engineered relevant features to facilitate meaningful analysis.
 
-- **Modeling:** We experimented with various regression models, including linear regression, Lasso regression, and Random Forest regression, to predict yards after contact. These models were assessed based on metrics like mean squared error and R-squared. Modeling.ipynpy contains the bulk of this project and should be looked at first.
-
+- **Modeling:** We experimented with various regression models, including linear regression, Lasso regression, and Random Forest regression, to predict yards after contact. These models were assessed based on metrics like mean squared error and R-squared.
 - **Feature Importance:** Utilizing a number of classification models, we attempted to predict wether or not a tackle would be broken on a given play
 
 ## Project Structure
