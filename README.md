@@ -19,6 +19,6 @@ The primary objective of this project is to analyze and model the factors influe
 
 - **Notebooks:** The repository includes Jupyter notebooks detailing the step-by-step process of data exploration, preprocessing, modeling, and feature analysis.
 
-- **Data:** The 'data' directory contains the raw and processed datasets used throughout the project.
+- **Data:** The 'data' directory contains the raw and processed datasets used throughout the project. Note that the tracking data files were too large and can instead be found [here](https://www.kaggle.com/competitions/nfl-big-data-bowl-2024/data)
 
 - **Animation:** This section houses the function for animating plays from the tracking data
