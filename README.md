@@ -25,9 +25,9 @@ The primary objective of this project is to analyze and model the factors influe
 
   I employed random forest, xgboost, adaboost, and even experimented with a rudimentary feedforward neural network. I found the xgboost model to have slightly better performance than the other models, though they were all only around 70% accurate with an AUC score of 0.60-0.65.
 <div style="display: flex;">
-    <img src="images/rf_roc.png" alt="Random Forest ROC" style="flex: 1; margin-right: 10px;">
-    <img src="images/xg_roc.png" alt="XGBoost ROC" style="flex: 1; margin-right: 10px; margin-left: 10px;">
-    <img src="images/ada_roc.png" alt="AdaBoost ROC" style="flex: 1; margin-left: 10px;">
+    <img src="images/rf_roc.png" alt="Random Forest ROC" style="flex: 1; margin-right: 5px;">
+    <img src="images/xg_roc.png" alt="XGBoost ROC" style="flex: 1; margin-right: 5px; margin-left: 10px;">
+    <img src="images/ada_roc.png" alt="AdaBoost ROC" style="flex: 1; margin-left: 5px;">
 </div>
 
 ## Project Structure
