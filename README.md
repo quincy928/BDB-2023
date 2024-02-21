@@ -24,3 +24,11 @@ The primary objective of this project is to analyze and model the factors influe
   
 <img src="images/rf_roc.png" alt="Alt Text" width="250" height="200"> <img src="images/xg_roc.png" alt="Alt Text" width="250" height="200"> <img src="images/ada_roc.png" alt="Alt Text" width="250" height="200">
 
+## Potential Sources of Error
+
+1. **Undersampling of Minority Class:**
+   Plays in which we determined a tackle was broken make up only around 27% of our data, making it more difficult for our model to identify cases where `broken_tackle` is True. SMOTE corrected for this, improving our F1 score for the True label from 0.15 to 0.3, though this really does not come anywhere close to predicting broken tackles the majority of the time. Obviously, the more lenient I was with the cutoff amount of yards (3) qualifying a player as having broken a tackle, the more plays we would have labeled as "True" class. There is a tradeoff here, and what one considers a 'broken tackle' depends on more factors than simply yards gained after contact. 
+
+2. **Variation Between Football Plays:**
+   Football plays vary greatly, and more complicated features than the ones engineered for this project probably also play a role in predicting a successful tackle. Understanding the nuances and intricacies of each play, such as player positioning, defensive strategies, and offensive tactics, could provide valuable insights into improving tackle success prediction. Further exploration and incorporation of these factors into the modeling process may enhance the accuracy and robustness of the predictive model.
+
