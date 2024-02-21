@@ -24,11 +24,7 @@ The primary objective of this project is to analyze and model the factors influe
 - **Modeling:** I experimented with a number of models, both for regression and classification. In the majority of plays, yards after contact was fewer than 3 yards, making it very difficult for a regression model to accurately predict the number of yards gained on a broken tackle. Additionally, the goal here was to identify the first broken tackle, and not subsequent ones. I found it more useful to reframe the problem into a classification setting: did the ballcarrier gain 3 or more yards after initial contact.
 
   I employed random forest, xgboost, adaboost, and even experimented with a rudimentary feedforward neural network. I found the xgboost model to have slightly better performance than the other models, though they were all only around 70% accurate with an AUC score of 0.60-0.65.
-<div style="display: flex;">
-    <img src="images/rf_roc.png" alt="Random Forest ROC" style="flex: 1; margin-right: 5px;">
-    <img src="images/xg_roc.png" alt="XGBoost ROC" style="flex: 1; margin-right: 5px; margin-left: 5px;">
-    <img src="images/ada_roc.png" alt="AdaBoost ROC" style="flex: 1; margin-left: 5px;">
-</div>
+<img src="images/xg_roc.png" alt="Alt Text" width="300" height="200">
 
 ## Project Structure
 
