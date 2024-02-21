@@ -8,9 +8,9 @@ The primary objective of this project is to analyze and model the factors influe
 
 ## Key Features
 
-- **Data Exploration:** We started by exploring the available NFL tracking data to identify key variables and patterns that could influence yards after contact.
+- **Data Exploration:** We embarked on our journey by delving into the wealth of NFL dataframes at our disposal, meticulously dissecting their diverse structures to unearth crucial variables and discern patterns that might exert influence on yards after contact. While each dataframe offered its unique insights, it was our tracking dataframe that emerged as the treasure trove of invaluable information. This dynamic resource furnished us with real-time player positions, angles, and velocities on the field, providing a comprehensive snapshot of gameplay. However, to paint a complete picture, we needed to supplement this with pertinent attributes sourced from our supporting dataframes. Extracting details such as ballcarrier identification, yards to first down, and player biometrics including heights and weights from these auxiliary sources, we ensured a comprehensive understanding to fuel our analysis.
   
-- **Data Preprocessing:** Significant efforts were dedicated to cleaning and preparing the dataset. We categorized plays, identified key players, and engineered relevant features to facilitate meaningful analysis.
+- **Data Preprocessing:** Significant efforts were dedicated to cleaning and preparing the dataset. We categorized plays, identified key players, and engineered relevant features to facilitate meaningful analysis. 
 
 - **Modeling:** We experimented with various regression models, including linear regression, Lasso regression, and Random Forest regression, to predict yards after contact. These models were assessed based on metrics like mean squared error and R-squared.
 - **Feature Importance:** Utilizing a number of classification models, we attempted to predict wether or not a tackle would be broken on a given play
