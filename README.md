@@ -12,7 +12,7 @@ The primary objective of this project is to analyze and model the factors influe
 
 - **Data Preprocessing:** Considerable resources were allocated to meticulously clean and refine the dataset. Our efforts encompassed a range of tasks, including play categorization, key player identification, and the creation of pertinent features. These features, which included metrics such as average speed before contact, the distance between the ballcarrier and the defender at the moment of ball reception, and the angle disparities between players at initial contact, were pivotal in our analysis. Notably, I also engineered the dependent variable, yards after contact, in hopes to predict broken tackles. Check out the following play in which Derrick Henry gains 5.31 yards after initial contact. For further exploration of this play, check out the file in the [html folder](https://github.com/quincy928/BDB-2024/tree/main/html), or play around with the `plot_football_play` function in the [Modeling.ipynb file](https://github.com/quincy928/BDB-2024/blob/main/Modeling.ipynb).
 ![Alt Text](images/Henry0.png)
-<img src="images/Henry1.png" alt="Alt Text" width="300" height="200"> <img src="images/Henry2.png" alt="Alt Text" width="300" height="200">
+<img src="images/Henry1.png" alt="Alt Text" width="300" height="200">                                              <img src="images/Henry2.png" alt="Alt Text" width="300" height="200">
 
 
 
