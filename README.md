@@ -26,6 +26,12 @@ One plausible explanation for this challenge is the imbalanced nature of the dat
   
 <img src="images/rf_roc.png" alt="Alt Text" width="250" height="200"> <img src="images/xg_roc.png" alt="Alt Text" width="250" height="200"> <img src="images/ada_roc.png" alt="Alt Text" width="250" height="200">
 
+Moreover, our analysis revealed considerable variability in feature importances across different models. Notably, the speed of the ballcarrier consistently emerged as one of the top five most influential features in both the Random Forest and XGBoost models. This finding aligns with our previous observations of a subtle linear relationship between ballcarrier speed and yards after contact. Another noteworthy feature is the distance when the ball is received, which exhibited significant importance in both the XGBoost and Random Forest models.
+
+Interestingly, the count of defenders in the box emerged as a feature of interest across multiple models, demonstrating unexpectedly high importance in our AdaBoost model. This observation warrants further investigation to better understand its impact on the predictive performance of the models and its relevance to the outcome variable.
+
+
+
 ## Potential Sources of Error
 
 1. **Undersampling of Minority Class:**
