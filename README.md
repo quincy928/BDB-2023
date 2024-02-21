@@ -19,7 +19,7 @@ The primary objective of this project is to analyze and model the factors influe
 
 
 
-  To streamline this process, I developed custom functions housed within the 'FeatureEngineering.py' file. These functions were designed to compute these features for each play from our tracking dataframe. Subsequently, the calculated features were integrated into our newly formed 'yac_df' dataframe, which served as the foundation for our modeling endeavors.
+  To streamline this process, I developed custom functions housed within the [FeatureEngineering.py](https://github.com/quincy928/BDB-2024/blob/main/YAC%20EDA.ipynb) file. These functions were designed to compute these features for each play from our tracking dataframe. Subsequently, the calculated features were integrated into our newly formed 'yac_df' dataframe, which served as the foundation for our modeling endeavors.
 
 - **Modeling:** I experimented with a number of models, both for regression and classification. In the majority of plays, yards after contact was fewer than 3 yards, making it very difficult for a regression model to accurately predict the number of yards gained on a broken tackle. Additionally, the goal here was to identify the first broken tackle, and not subsequent ones. I found it more useful to reframe the problem into a classification setting: did the ballcarrier gain 3 or more yards after initial contact.
 
