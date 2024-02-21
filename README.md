@@ -30,7 +30,7 @@ Moreover, our analysis revealed considerable variability in feature importances 
 
 Interestingly, the count of defenders in the box emerged as a feature of interest across multiple models, demonstrating unexpectedly high importance in our AdaBoost model. This observation warrants further investigation to better understand its impact on the predictive performance of the models and its relevance to the outcome variable.
 
-
+<img src="images/RFImportance.png" alt="Alt Text" width="250" height="200"> <img src="images/XGBoostImportance.png" alt="Alt Text" width="250" height="200"> <img src="images/ADAImportance.png" alt="Alt Text" width="250" height="200">
 
 ## Potential Sources of Error
 
